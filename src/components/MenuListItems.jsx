@@ -63,7 +63,7 @@ const MenuListItems = () => {
     <div>
       <List>
         {icons?.map((item, index) => (
-          <ListItem key={index} disablePadding>
+          <ListItem key={index} disablePadding> 
             {item.url.includes("http") && (
               <ListItemButton to={item.url} sx={iconStyle}>
                 <ListItemIcon>{item.icon}</ListItemIcon>
